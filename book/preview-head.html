@@ -1,0 +1,106 @@
+<style>
+    @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+    * {
+      -webkit-font-smoothing: antialiased;
+      box-sizing: border-box;
+    }
+    html,
+    body {
+      margin: 0px;
+      height: 100%;
+    }
+    /* a blue color as a generic focus style */
+    button:focus-visible {
+      outline: 2px solid #4a90e2 !important;
+      outline: -webkit-focus-ring-color auto 5px !important;
+    }
+    a {
+      text-decoration: none;
+    }
+  
+    :root {
+      --qubic-org-color-cyan-11: rgba(11, 42, 45, 1);
+      --qubic-org-color-cyan-12-70: rgba(12, 43, 47, 0.7);
+      --qubic-org-color-cyan-76-1: rgba(139, 249, 232, 0.01);
+      --qubic-org-color-cyan-85-70: rgba(176, 250, 255, 0.7);
+      --qubic-org-color-grey-90: rgba(205, 252, 255, 1);
+      --qubic-org-color-white-solid: rgba(255, 255, 255, 1);
+      --qubic-org-font-size-16: 16px;
+      --qubic-org-height-900: 900px;
+      --qubic-org-item-spacing-12: 12px;
+      --qubic-org-item-spacing-6: 6px;
+      --qubic-org-item-spacing-60: 60px;
+      --qubic-org-item-spacing-xs: 8px;
+      --qubic-org-radius-48: 48px;
+      --qubic-org-radius-56: 56px;
+      --qubic-org-semantic-heading-1-font-family: "Space Grotesk", Helvetica;
+      --qubic-org-semantic-heading-1-font-size: 72px;
+      --qubic-org-semantic-heading-1-font-style: normal;
+      --qubic-org-semantic-heading-1-font-weight: 500;
+      --qubic-org-semantic-heading-1-letter-spacing: -1.440000057220459px;
+      --qubic-org-semantic-heading-1-line-height: 76px;
+      --qubic-org-semantic-heading-2-font-family: "Space Grotesk", Helvetica;
+      --qubic-org-semantic-heading-2-font-size: 40px;
+      --qubic-org-semantic-heading-2-font-style: normal;
+      --qubic-org-semantic-heading-2-font-weight: 500;
+      --qubic-org-semantic-heading-2-letter-spacing: -0.800000011920929px;
+      --qubic-org-semantic-heading-2-line-height: 44px;
+      --qubic-org-semantic-heading-3-font-family: "Space Grotesk", Helvetica;
+      --qubic-org-semantic-heading-3-font-size: 22px;
+      --qubic-org-semantic-heading-3-font-style: normal;
+      --qubic-org-semantic-heading-3-font-weight: 500;
+      --qubic-org-semantic-heading-3-letter-spacing: -0.4399999976158142px;
+      --qubic-org-semantic-heading-3-line-height: 26px;
+      --qubic-org-semantic-heading-5-font-family: "Space Grotesk", Helvetica;
+      --qubic-org-semantic-heading-5-font-size: 18px;
+      --qubic-org-semantic-heading-5-font-style: normal;
+      --qubic-org-semantic-heading-5-font-weight: 500;
+      --qubic-org-semantic-heading-5-letter-spacing: -0.36000001430511475px;
+      --qubic-org-semantic-heading-5-line-height: 24px;
+      --qubic-org-semantic-link-font-family: "Space Grotesk", Helvetica;
+      --qubic-org-semantic-link-font-size: 14px;
+      --qubic-org-semantic-link-font-style: normal;
+      --qubic-org-semantic-link-font-weight: 500;
+      --qubic-org-semantic-link-letter-spacing: -0.2800000011920929px;
+      --qubic-org-semantic-link-line-height: 20px;
+      --qubic-org-space-grotesk-medium-16-font-family: "Space Grotesk", Helvetica;
+      --qubic-org-space-grotesk-medium-16-font-size: 16px;
+      --qubic-org-space-grotesk-medium-16-font-style: normal;
+      --qubic-org-space-grotesk-medium-16-font-weight: 500;
+      --qubic-org-space-grotesk-medium-16-letter-spacing: -0.1599999964237213px;
+      --qubic-org-space-grotesk-medium-16-line-height: 32px;
+      --qubic-org-space-grotesk-regular-16-font-family: "Space Grotesk", Helvetica;
+      --qubic-org-space-grotesk-regular-16-font-size: 16px;
+      --qubic-org-space-grotesk-regular-16-font-style: normal;
+      --qubic-org-space-grotesk-regular-16-font-weight: 400;
+      --qubic-org-space-grotesk-regular-16-letter-spacing: 0px;
+      --qubic-org-space-grotesk-regular-16-line-height: 24px;
+      --qubic-org-space-grotesk-regular-20-font-family: "Space Grotesk", Helvetica;
+      --qubic-org-space-grotesk-regular-20-font-size: 20px;
+      --qubic-org-space-grotesk-regular-20-font-style: normal;
+      --qubic-org-space-grotesk-regular-20-font-weight: 400;
+      --qubic-org-space-grotesk-regular-20-letter-spacing: 0px;
+      --qubic-org-space-grotesk-regular-20-line-height: 28px;
+      --qubic-org-width-1200: 1200px;
+      --qubic-org-width-1440: 1440px;
+      --qubic-org-width-1600: 1600px;
+      --qubic-org-width-340: 340px;
+      --qubic-org-width-360: 360px;
+      --qubic-org-width-960: 960px;
+      --qubicorgaquamarine-20: rgba(139, 249, 232, 0.2);
+      --qubicorgbright-turquoise-20: rgba(29, 206, 242, 0.2);
+      --qubicorgelephant: rgba(15, 55, 60, 1);
+      --text-semantic-button-font-family: "Inter", Helvetica;
+      --text-semantic-button-font-size: 16px;
+      --text-semantic-button-font-style: normal;
+      --text-semantic-button-font-weight: 500;
+      --text-semantic-button-letter-spacing: -0.03200000151991844px;
+      --text-semantic-button-line-height: 22px;
+      --www-kota-io-item-spacing-12-duplicate: 12px;
+      --www-kota-io-item-spacing-xxs: 4px;
+      --www-kota-io-width-1308: 1308px;
+      --www-kota-io-width-480: 480px;
+      --www-kota-io-width-576: 576px;
+    }
+  </style>
+  

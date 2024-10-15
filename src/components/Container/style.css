@@ -1,0 +1,495 @@
+.container {
+    align-items: center;
+    display: flex;
+    gap: var(--qubic-org-font-size-16);
+    height: 504px;
+    justify-content: center;
+    max-width: var(--qubic-org-width-1200);
+    position: relative;
+    width: 1200px;
+  }
+  
+  .container .overlay {
+    background-color: #0c2b2fb2;
+    border-radius: var(--qubic-org-radius-56) var(--qubic-org-font-size-16) var(--qubic-org-font-size-16)
+      var(--qubic-org-font-size-16);
+    height: 504px;
+    overflow: hidden;
+    position: relative;
+    width: 280px;
+  }
+  
+  .container .overlap-group-wrapper {
+    border: 1px solid;
+    border-color: var(--qubicorgelephant);
+    border-radius: var(--qubic-org-radius-56) var(--qubic-org-font-size-16) var(--qubic-org-font-size-16)
+      var(--qubic-org-font-size-16);
+    height: 504px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 280px;
+  }
+  
+  .container .overlap-group {
+    position: relative;
+  }
+  
+  .container .rectangle {
+    border-color: #0d8b9a;
+    position: absolute;
+  }
+  
+  .container .div {
+    border: 1px solid;
+    position: absolute;
+  }
+  
+  .container .rectangle-2 {
+    position: absolute;
+  }
+  
+  .container .text-wrapper {
+    color: #ffffff;
+    font-family: var(--qubic-org-semantic-heading-2-font-family);
+    font-size: var(--qubic-org-semantic-heading-2-font-size);
+    font-style: var(--qubic-org-semantic-heading-2-font-style);
+    font-weight: var(--qubic-org-semantic-heading-2-font-weight);
+    letter-spacing: var(--qubic-org-semantic-heading-2-letter-spacing);
+    line-height: var(--qubic-org-semantic-heading-2-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .container .text-wrapper-2 {
+    color: #ffffff;
+    font-family: var(--qubic-org-semantic-heading-2-font-family);
+    font-size: var(--qubic-org-semantic-heading-2-font-size);
+    font-style: var(--qubic-org-semantic-heading-2-font-style);
+    font-weight: var(--qubic-org-semantic-heading-2-font-weight);
+    letter-spacing: var(--qubic-org-semantic-heading-2-letter-spacing);
+    line-height: var(--qubic-org-semantic-heading-2-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .container .rectangle-3 {
+    border: 1px solid;
+    position: absolute;
+  }
+  
+  .container .frame {
+    position: absolute;
+  }
+  
+  .container .text-wrapper-3 {
+    color: #ffffff;
+    font-family: var(--qubic-org-semantic-heading-2-font-family);
+    font-size: var(--qubic-org-semantic-heading-2-font-size);
+    font-style: var(--qubic-org-semantic-heading-2-font-style);
+    font-weight: var(--qubic-org-semantic-heading-2-font-weight);
+    height: 44px;
+    left: -60px;
+    letter-spacing: var(--qubic-org-semantic-heading-2-letter-spacing);
+    line-height: var(--qubic-org-semantic-heading-2-line-height);
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    white-space: nowrap;
+  }
+  
+  .container .text-wrapper-4 {
+    color: #ffffff;
+    font-family: var(--qubic-org-semantic-heading-2-font-family);
+    font-size: var(--qubic-org-semantic-heading-2-font-size);
+    font-style: var(--qubic-org-semantic-heading-2-font-style);
+    font-weight: var(--qubic-org-semantic-heading-2-font-weight);
+    height: 44px;
+    left: 88px;
+    letter-spacing: var(--qubic-org-semantic-heading-2-letter-spacing);
+    line-height: var(--qubic-org-semantic-heading-2-line-height);
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    transform: rotate(180deg);
+    white-space: nowrap;
+  }
+  
+  .container .paragraph {
+    height: 203px;
+    left: 24px;
+    position: absolute;
+    top: 269px;
+    width: 232px;
+  }
+  
+  .container .heading-open {
+    color: #ffffff;
+    font-family: var(--qubic-org-semantic-heading-3-font-family);
+    font-size: var(--qubic-org-semantic-heading-3-font-size);
+    font-style: var(--qubic-org-semantic-heading-3-font-style);
+    font-weight: var(--qubic-org-semantic-heading-3-font-weight);
+    height: 26px;
+    left: 36px;
+    letter-spacing: var(--qubic-org-semantic-heading-3-letter-spacing);
+    line-height: var(--qubic-org-semantic-heading-3-line-height);
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .container .p {
+    color: #b0faffb2;
+    font-family: var(--qubic-org-space-grotesk-regular-16-font-family);
+    font-size: var(--qubic-org-space-grotesk-regular-16-font-size);
+    font-style: var(--qubic-org-space-grotesk-regular-16-font-style);
+    font-weight: var(--qubic-org-space-grotesk-regular-16-font-weight);
+    height: 143px;
+    left: 12px;
+    letter-spacing: var(--qubic-org-space-grotesk-regular-16-letter-spacing);
+    line-height: var(--qubic-org-space-grotesk-regular-16-line-height);
+    position: absolute;
+    text-align: center;
+    top: 47px;
+    width: 208px;
+  }
+  
+  .container .div-2 {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: var(--qubic-org-font-size-16);
+    height: 504px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .container .overlay-2 {
+    align-items: center;
+    background-color: #0c2b2fb2;
+    border-radius: 16px;
+    display: flex;
+    flex: 0 0 auto;
+    overflow: hidden;
+    padding: 32px;
+    position: relative;
+    width: 608px;
+  }
+  
+  .container .img {
+    height: 198px;
+    left: 451px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 157px;
+  }
+  
+  .container .border-2 {
+    border: 1px solid;
+    border-color: var(--qubicorgelephant);
+    border-radius: 16px;
+    height: 198px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 608px;
+  }
+  
+  .container .div-3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: var(--qubic-org-item-spacing-12);
+    max-width: var(--qubic-org-width-360);
+    position: relative;
+    width: 360px;
+  }
+  
+  .container .heading {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  .container .text-wrapper-5 {
+    align-self: stretch;
+    color: #ffffff;
+    font-family: var(--qubic-org-semantic-heading-3-font-family);
+    font-size: var(--qubic-org-semantic-heading-3-font-size);
+    font-style: var(--qubic-org-semantic-heading-3-font-style);
+    font-weight: var(--qubic-org-semantic-heading-3-font-weight);
+    letter-spacing: var(--qubic-org-semantic-heading-3-letter-spacing);
+    line-height: var(--qubic-org-semantic-heading-3-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .container .stay-ahead-of-the {
+    align-self: stretch;
+    color: #b0faffb2;
+    font-family: var(--qubic-org-space-grotesk-regular-16-font-family);
+    font-size: var(--qubic-org-space-grotesk-regular-16-font-size);
+    font-style: var(--qubic-org-space-grotesk-regular-16-font-style);
+    font-weight: var(--qubic-org-space-grotesk-regular-16-font-weight);
+    letter-spacing: var(--qubic-org-space-grotesk-regular-16-letter-spacing);
+    line-height: var(--qubic-org-space-grotesk-regular-16-line-height);
+    position: relative;
+  }
+  
+  .container .overlay-shadow {
+    background-color: #0c2b2fb2;
+    border-radius: 16px;
+    box-shadow: inset 0px 1px 25px #1dcef240;
+    flex: 1;
+    flex-grow: 1;
+    overflow: hidden;
+    position: relative;
+    width: 608px;
+  }
+  
+  .container .heading-key {
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .container .border-3 {
+    border: 1px solid;
+    border-color: var(--qubicorgbright-turquoise-20);
+    border-radius: 16px;
+    height: 290px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 608px;
+  }
+  
+  .container .overlay-3 {
+    align-items: center;
+    background-color: #0c2b2fb2;
+    border-radius: var(--qubic-org-font-size-16) var(--qubic-org-radius-56) var(--qubic-org-font-size-16)
+      var(--qubic-org-font-size-16);
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    height: 504px;
+    overflow: hidden;
+    padding: 32px 22px;
+    position: relative;
+    width: 280px;
+  }
+  
+  .container .img-2 {
+    align-self: stretch;
+    height: 236px;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+  }
+  
+  .container .border-4 {
+    border: 1px solid;
+    border-color: var(--qubicorgelephant);
+    border-radius: var(--qubic-org-font-size-16) var(--qubic-org-radius-56) var(--qubic-org-font-size-16)
+      var(--qubic-org-font-size-16);
+    height: 504px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 280px;
+  }
+  
+  .container .div-4 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 11px;
+    justify-content: center;
+    margin-bottom: -18px;
+    margin-left: -32.5px;
+    margin-right: -32.5px;
+    padding: 0px 9px;
+    position: relative;
+  }
+  
+  .container .risk-guard {
+    color: #ffffff;
+    font-family: var(--qubic-org-semantic-heading-3-font-family);
+    font-size: var(--qubic-org-semantic-heading-3-font-size);
+    font-style: var(--qubic-org-semantic-heading-3-font-style);
+    font-weight: var(--qubic-org-semantic-heading-3-font-weight);
+    letter-spacing: var(--qubic-org-semantic-heading-3-letter-spacing);
+    line-height: var(--qubic-org-semantic-heading-3-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: 283px;
+  }
+  
+  .container .text-wrapper-6 {
+    color: #b0faffb2;
+    font-family: "Space Grotesk", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: relative;
+    text-align: center;
+    width: 220.23px;
+  }
+  
+  .container .property-1-0-hover {
+    border-radius: 25px;
+    height: 118px;
+    left: 80px;
+    top: 82px;
+    width: 120px;
+  }
+  
+  .container .property-1-0-default {
+    border-radius: 16px;
+    height: 100px;
+    left: 90px;
+    top: 91px;
+    width: 100px;
+  }
+  
+  .container .property-1-6-hover {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 98px 183.51px;
+  }
+  
+  .container .overlap-group.property-1-0-hover .rectangle {
+    background-color: #15b6c9;
+    border: 6px solid;
+    border-radius: 16px;
+    height: 100px;
+    left: 10px;
+    top: 9px;
+    width: 100px;
+  }
+  
+  .container .overlap-group.property-1-0-default .rectangle {
+    border: 1px solid;
+    border-radius: 25px;
+    height: 93px;
+    left: 4px;
+    top: 3px;
+    width: 94px;
+  }
+  
+  .container .overlap-group.property-1-0-hover .div {
+    border-color: #ffffff;
+    border-radius: 8px;
+    height: 60px;
+    left: 30px;
+    top: 29px;
+    width: 60px;
+  }
+  
+  .container .overlap-group.property-1-0-default .div {
+    border-color: #0d8b9a;
+    border-radius: 22px;
+    height: 84px;
+    left: 8px;
+    top: 8px;
+    width: 86px;
+  }
+  
+  .container .overlap-group.property-1-0-hover .rectangle-2 {
+    align-items: center;
+    display: inline-flex;
+    gap: 3px;
+    left: 34px;
+    top: 37px;
+  }
+  
+  .container .overlap-group.property-1-0-default .rectangle-2 {
+    background-color: #15b6c9;
+    border: 6px solid;
+    border-color: #0d8b9a;
+    border-radius: 16px;
+    height: 100px;
+    left: 0;
+    top: 0;
+    width: 100px;
+  }
+  
+  .container .overlap-group.property-1-0-hover .rectangle-3 {
+    border-color: #0d8b9a;
+    border-radius: 22px;
+    height: 110px;
+    left: 4px;
+    top: 4px;
+    width: 112px;
+  }
+  
+  .container .overlap-group.property-1-0-default .rectangle-3 {
+    border-color: #ffffff;
+    border-radius: 8px;
+    height: 60px;
+    left: 20px;
+    top: 20px;
+    width: 60px;
+  }
+  
+  .container .overlap-group.property-1-0-hover .frame {
+    border: 1px solid;
+    border-color: #0d8b9a;
+    border-radius: 25px;
+    height: 118px;
+    left: 0;
+    top: 0;
+    width: 120px;
+  }
+  
+  .container .overlap-group.property-1-0-default .frame {
+    height: 44px;
+    left: 24px;
+    overflow: hidden;
+    top: 28px;
+    width: 53px;
+  }
+  
+  .container .overlay-shadow.property-1-6-hover .heading-key {
+    font-family: "Space Grotesk", Helvetica;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -0.8px;
+    line-height: 44px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .container .overlay-shadow.property-1-6-default .heading-key {
+    font-family: var(--qubic-org-semantic-heading-2-font-family);
+    font-size: var(--qubic-org-semantic-heading-2-font-size);
+    font-style: var(--qubic-org-semantic-heading-2-font-style);
+    font-weight: var(--qubic-org-semantic-heading-2-font-weight);
+    height: 44px;
+    left: 188px;
+    letter-spacing: var(--qubic-org-semantic-heading-2-letter-spacing);
+    line-height: var(--qubic-org-semantic-heading-2-line-height);
+    position: absolute;
+    top: 344px;
+  }
+  

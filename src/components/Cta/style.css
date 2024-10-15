@@ -1,0 +1,57 @@
+.CTA {
+  all: unset;
+  align-items: center;
+  border-radius: 12px;
+  box-sizing: border-box;
+  display: inline-flex;
+  padding: 12px 24px;
+  position: relative;
+}
+
+.CTA .open-dapp {
+  font-family: "Space Grotesk", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.32px;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.CTA .border {
+  border: 1px solid;
+  border-color: var(--qubicorgaquamarine-20);
+  border-radius: 12px;
+  height: 44px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 131px;
+}
+
+.CTA.hover {
+  background-color: #cdfcff;
+  box-shadow: inset 0px 0px 1px 1px #4cddfd, inset 0px 1px 1px #4cddfd, inset 0px 0px 4px 2px #ffffff1f,
+    inset 0px -8px 16px -4px #37c5e599, 0px 6px 20px #37c5e51f, 0px 4px 12px #37c5e51f, 0px 4px 6px #37c5e51f,
+    0px 1px 4px #37c5e51f;
+  overflow: hidden;
+}
+
+.CTA.default {
+  -webkit-backdrop-filter: blur(7.5px) brightness(100%);
+  backdrop-filter: blur(7.5px) brightness(100%);
+  background-color: #8bf9e803;
+  box-shadow: inset 0px 0px 40px #8bf9e833;
+  justify-content: center;
+}
+
+.CTA.hover .open-dapp {
+  color: #0b2a2d;
+}
+
+.CTA.default .open-dapp {
+  color: #ffffff;
+}
